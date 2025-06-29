@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+h1 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/026/286/597/original/modern-background-design-with-gradient-minimalist-gradient-background-with-geometric-shapes-for-website-design-landing-page-wallpaper-banner-poster-flyer-and-presentation-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 40px;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fafcff;
+}
+
+#results {
+  margin-top: 30px;
+  font-size: 18px;
+  max-height: 400px;
+  overflow-y: auto;
+  text-align: left;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  border: 1px solid #e9ecef;
+}
+
+#results h2, #results h3 {
+  color: #007bff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#results ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#results li {
+  margin-bottom: 5px;
+}
