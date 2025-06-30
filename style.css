@@ -70,7 +70,7 @@ button:hover {
 }
 
 #results {
-  margin-top: 30px;
+  margin: 30px auto 0 auto;
   font-size: 18px;
   max-height: 60vh;
   overflow-y: auto;
@@ -79,7 +79,8 @@ button:hover {
   background-color: #f8f9fa;
   border-radius: 5px;
   border: 1px solid #e9ecef;
-  width: 100%;
+  width: 90%;
+  max-width: 800px;
   box-sizing: border-box;
 }
 
@@ -104,6 +105,8 @@ button:hover {
     padding: 15px;
     font-size: 16px;
     max-height: 50vh;
+    width: 95%;
+    margin: 20px auto 0 auto;
   }
   
   h1 {
@@ -116,6 +119,8 @@ button:hover {
   #results {
     padding: 10px;
     font-size: 14px;
+    width: 98%;
+    margin: 15px auto 0 auto;
   }
   
   #results h2, #results h3 {
@@ -142,3 +147,4 @@ button:hover {
 #results li {
   margin-bottom: 5px;
 }
+
