@@ -41,10 +41,12 @@ body {
 input {
   padding: 10px;
   font-size: 16px;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-right: 10px;
+  margin-bottom: 10px;
   box-sizing: border-box;
   background-color: #fff;
   color: #000;
@@ -70,13 +72,60 @@ button:hover {
 #results {
   margin-top: 30px;
   font-size: 18px;
-  max-height: 600px;
+  max-height: 60vh;
   overflow-y: auto;
   text-align: left;
   padding: 20px;
   background-color: #f8f9fa;
   border-radius: 5px;
   border: 1px solid #e9ecef;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  body {
+    padding: 20px 10px;
+  }
+  
+  input {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #results {
+    padding: 15px;
+    font-size: 16px;
+    max-height: 50vh;
+  }
+  
+  h1 {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  #results {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  #results h2, #results h3 {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 16px;
+    padding: 10px;
+  }
 }
 
 #results h2, #results h3 {
