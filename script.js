@@ -14,7 +14,7 @@ const data = [
  
   {
     interest: ["space","space science","space exploration","space engineering","space technology"],
-    majors: ['Astronomy', 'Astrophysics', 'Planetary Science', 'Space Science', 'Aerospace Engineering', 'Aeronautical Engineering', 'Astrobiology', 'Cosmology', 'Space Physics', 'Space Weather', 'Space Systems Engineering', 'Spacecraft Engineering', 'Spacecraft Propulsion','Spacecraft Guidance and Control','Spacecraft Telecommunications',,'Spacecraft Avionics','Spacecraft Command and Data Handling'],
+    majors: ['Astronomy', 'Astrophysics', 'Planetary Science', 'Space Science', 'Aerospace Engineering', 'Aeronautical Engineering', 'Astrobiology', 'Cosmology', 'Space Physics', 'Space Weather', 'Space Systems Engineering', 'Spacecraft Engineering', 'Spacecraft Propulsion','Spacecraft Guidance and Control','Spacecraft Telecommunications','Spacecraft Avionics','Spacecraft Command and Data Handling'],
       colleges: ['Massachusetts Institute of Technology', 'California Institute of Technology','University of colorado boulder','Embry-Riddle Aeronautical University','Georgia Institute of Technology','University of Cambrigde','University of Leicester','University of Toronto','Technical University of Munich','ISAE-SUPAERO','University of Sydney'],
     
   },
